@@ -12,7 +12,11 @@
         <module>sockets</module>
         <module>mailing</module>
         <module>serialize</module>
+        <module>menus</module>
     </modules>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
         <!-- boilerplate generation -->
@@ -25,7 +29,7 @@
         <dependency>
             <groupId>org.jooq</groupId>
             <artifactId>jool</artifactId>
-            <version>0.9.0</version>
+            <version>0.9.12</version>
         </dependency>
         <!-- test -->
         <dependency>
