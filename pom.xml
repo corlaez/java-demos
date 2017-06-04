@@ -13,9 +13,15 @@
         <module>mailing</module>
         <module>serialize</module>
         <module>menus</module>
+        <module>testing</module>
+        <module>neuron</module>
+        <module>networking</module>
+        <module>files</module>
+        <module>EC2DADCordovaPelaezJArmando</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
+        <java.target>1.8</java.target>
     </properties>
 
     <dependencies>

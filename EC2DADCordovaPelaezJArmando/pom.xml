@@ -9,13 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>serialize</artifactId>
+    <artifactId>EC2-DAD-Cordova-Pelaez-JArmando</artifactId>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
         <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.8.0</version>
+            <groupId>com.ozuapp.distribuidas</groupId>
+            <artifactId>files</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -31,4 +30,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

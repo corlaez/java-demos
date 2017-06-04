@@ -8,16 +8,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
-    <artifactId>serialize</artifactId>
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.8.0</version>
-        </dependency>
-    </dependencies>
+    <artifactId>networking</artifactId>
 
     <build>
         <plugins>
@@ -31,4 +26,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

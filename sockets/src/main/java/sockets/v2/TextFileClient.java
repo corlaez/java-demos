@@ -56,7 +56,7 @@ public class TextFileClient extends JFrame {
     }
 
     public static void main(String ...args) {
-        new TextFileClient(9010, 9011, "127.0.0.1", 9008, 9009);
-        new TextFileClient(9008, 9009, "127.0.0.1", 9010, 9011);
+        new TextFileClient(9010, 9011, "192.168.0.21", 9008, 9009);
+//        new TextFileClient(9008, 9009, "127.0.0.1", 9010, 9011);
     }
 }
