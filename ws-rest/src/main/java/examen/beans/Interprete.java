@@ -43,7 +43,7 @@ public class Interprete {
                     e.printStackTrace();
                     if (vuelosConError == null)
                         vuelosConError = "";
-                    vuelosConError += "\n" + plan;
+                    vuelosConError += plan;
                 }
             }
         } catch (Exception e) {
@@ -53,6 +53,7 @@ public class Interprete {
         System.out.println("interprete: " + list);
         return list;
     }
+
     private String removeEnclosing(String obj, String first, String last) {
         String ns = obj.trim();
         String brackets = ns.substring(0,1) + ns.substring(ns.length()-1);
